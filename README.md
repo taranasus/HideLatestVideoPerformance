@@ -7,7 +7,7 @@ Video Presentation of this Widget: TBA - I'm still working on it, it's a big vid
 - Link to Chrome extension: https://chrome.google.com/webstore/detail/hide-latest-video-perform/gebhkpihpgicbbclaldmmkpnccbnfhfe 
 - Link to Edge extension: TBA
 - Link to Firefox store: TBA
-- Link to Safari extension: I ABSOLUTELY REFUSE TO PAY APPLE £79 PER MONTH JUST TO PROVIDE A FREE EXTENSION!
+- Link to Safari extension: **I ABSOLUTELY REFUSE TO PAY APPLE £79 PER MONTH JUST TO PROVIDE A FREE EXTENSION!**
 
 If you need it for other browsers / stores just drop me a message and I'll see what I can do.
 
