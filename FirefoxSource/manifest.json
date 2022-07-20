@@ -1,0 +1,23 @@
+{
+    "name": "Hide Latest Video Performance - YT",
+    "description": "Hides the \"Latest video performance\" widget within the YouTube Studio dashboard.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "The YouTube Studio Top 10 videos widget is hidden"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://studio.youtube.com/*"
+            ],
+            "js": [
+                "hideWidget.js"
+            ],
+            "css": [
+                "hideWidget.css"
+            ]
+        }
+    ]
+}

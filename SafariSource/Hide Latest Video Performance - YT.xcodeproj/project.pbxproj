@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B19FAF5F2887CAE200AFBAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF5E2887CAE200AFBAD7 /* AppDelegate.swift */; };
+		B19FAF612887CAE200AFBAD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF602887CAE200AFBAD7 /* SceneDelegate.swift */; };
+		B19FAF642887CAE200AFBAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF622887CAE200AFBAD7 /* LaunchScreen.storyboard */; };
+		B19FAF672887CAE200AFBAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF652887CAE200AFBAD7 /* Main.storyboard */; };
+		B19FAF702887CAE200AFBAD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF6F2887CAE200AFBAD7 /* AppDelegate.swift */; };
+		B19FAF732887CAE200AFBAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF712887CAE200AFBAD7 /* Main.storyboard */; };
+		B19FAF7B2887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B19FAF7A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B19FAF852887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B19FAF842887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B19FAF8B2887CAE200AFBAD7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF4E2887CAE100AFBAD7 /* Main.html */; };
+		B19FAF8C2887CAE200AFBAD7 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF4E2887CAE100AFBAD7 /* Main.html */; };
+		B19FAF8D2887CAE200AFBAD7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF502887CAE100AFBAD7 /* Icon.png */; };
+		B19FAF8E2887CAE200AFBAD7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF502887CAE100AFBAD7 /* Icon.png */; };
+		B19FAF8F2887CAE200AFBAD7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF512887CAE100AFBAD7 /* Style.css */; };
+		B19FAF902887CAE200AFBAD7 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF512887CAE100AFBAD7 /* Style.css */; };
+		B19FAF912887CAE200AFBAD7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF522887CAE100AFBAD7 /* Script.js */; };
+		B19FAF922887CAE200AFBAD7 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF522887CAE100AFBAD7 /* Script.js */; };
+		B19FAF932887CAE200AFBAD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF532887CAE100AFBAD7 /* ViewController.swift */; };
+		B19FAF942887CAE200AFBAD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF532887CAE100AFBAD7 /* ViewController.swift */; };
+		B19FAF952887CAE200AFBAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF542887CAE200AFBAD7 /* Assets.xcassets */; };
+		B19FAF962887CAE200AFBAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19FAF542887CAE200AFBAD7 /* Assets.xcassets */; };
+		B19FAF972887CAE200AFBAD7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF562887CAE200AFBAD7 /* SafariWebExtensionHandler.swift */; };
+		B19FAF982887CAE200AFBAD7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FAF562887CAE200AFBAD7 /* SafariWebExtensionHandler.swift */; };
+		B19FAFAE2887CAE300AFBAD7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAA2887CAE300AFBAD7 /* icon.png */; };
+		B19FAFAF2887CAE300AFBAD7 /* hideWidget.js in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAB2887CAE300AFBAD7 /* hideWidget.js */; };
+		B19FAFB02887CAE300AFBAD7 /* hideWidget.css in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAC2887CAE300AFBAD7 /* hideWidget.css */; };
+		B19FAFB12887CAE300AFBAD7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAD2887CAE300AFBAD7 /* manifest.json */; };
+		B19FAFB22887CAE300AFBAD7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAA2887CAE300AFBAD7 /* icon.png */; };
+		B19FAFB32887CAE300AFBAD7 /* hideWidget.js in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAB2887CAE300AFBAD7 /* hideWidget.js */; };
+		B19FAFB42887CAE300AFBAD7 /* hideWidget.css in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAC2887CAE300AFBAD7 /* hideWidget.css */; };
+		B19FAFB52887CAE300AFBAD7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B19FAFAD2887CAE300AFBAD7 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19FAF7C2887CAE200AFBAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19FAF482887CAE000AFBAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19FAF792887CAE200AFBAD7;
+			remoteInfo = "Hide Latest Video Performance - YT Extension (iOS)";
+		};
+		B19FAF862887CAE200AFBAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19FAF482887CAE000AFBAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19FAF832887CAE200AFBAD7;
+			remoteInfo = "Hide Latest Video Performance - YT Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B19FAF9E2887CAE200AFBAD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B19FAF7B2887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAFA52887CAE200AFBAD7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B19FAF852887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B19FAF4F2887CAE100AFBAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		B19FAF502887CAE100AFBAD7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B19FAF512887CAE100AFBAD7 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		B19FAF522887CAE100AFBAD7 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		B19FAF532887CAE100AFBAD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B19FAF542887CAE200AFBAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19FAF562887CAE200AFBAD7 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		B19FAF5B2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide Latest Video Performance - YT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19FAF5E2887CAE200AFBAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19FAF602887CAE200AFBAD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B19FAF632887CAE200AFBAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19FAF662887CAE200AFBAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19FAF682887CAE200AFBAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19FAF6D2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide Latest Video Performance - YT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19FAF6F2887CAE200AFBAD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19FAF722887CAE200AFBAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19FAF742887CAE200AFBAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19FAF752887CAE200AFBAD7 /* Hide Latest Video Performance - YT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hide Latest Video Performance - YT.entitlements"; sourceTree = "<group>"; };
+		B19FAF7A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hide Latest Video Performance - YT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19FAF7F2887CAE200AFBAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19FAF842887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hide Latest Video Performance - YT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19FAF892887CAE200AFBAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19FAF8A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Hide Latest Video Performance - YT.entitlements"; sourceTree = "<group>"; };
+		B19FAFAA2887CAE300AFBAD7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Documents/ChromeSource/icon.png; sourceTree = "<group>"; };
+		B19FAFAB2887CAE300AFBAD7 /* hideWidget.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = hideWidget.js; path = ../../Documents/ChromeSource/hideWidget.js; sourceTree = "<group>"; };
+		B19FAFAC2887CAE300AFBAD7 /* hideWidget.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = hideWidget.css; path = ../../Documents/ChromeSource/hideWidget.css; sourceTree = "<group>"; };
+		B19FAFAD2887CAE300AFBAD7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../Documents/ChromeSource/manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19FAF582887CAE200AFBAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF6A2887CAE200AFBAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF772887CAE200AFBAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF812887CAE200AFBAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19FAF472887CAE000AFBAD7 = {
+			isa = PBXGroup;
+			children = (
+				B19FAF4C2887CAE100AFBAD7 /* Shared (App) */,
+				B19FAF552887CAE200AFBAD7 /* Shared (Extension) */,
+				B19FAF5D2887CAE200AFBAD7 /* iOS (App) */,
+				B19FAF6E2887CAE200AFBAD7 /* macOS (App) */,
+				B19FAF7E2887CAE200AFBAD7 /* iOS (Extension) */,
+				B19FAF882887CAE200AFBAD7 /* macOS (Extension) */,
+				B19FAF5C2887CAE200AFBAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B19FAF4C2887CAE100AFBAD7 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF532887CAE100AFBAD7 /* ViewController.swift */,
+				B19FAF542887CAE200AFBAD7 /* Assets.xcassets */,
+				B19FAF4D2887CAE100AFBAD7 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		B19FAF4D2887CAE100AFBAD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF4E2887CAE100AFBAD7 /* Main.html */,
+				B19FAF502887CAE100AFBAD7 /* Icon.png */,
+				B19FAF512887CAE100AFBAD7 /* Style.css */,
+				B19FAF522887CAE100AFBAD7 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B19FAF552887CAE200AFBAD7 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAFA92887CAE300AFBAD7 /* Resources */,
+				B19FAF562887CAE200AFBAD7 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		B19FAF5C2887CAE200AFBAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF5B2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.app */,
+				B19FAF6D2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.app */,
+				B19FAF7A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */,
+				B19FAF842887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19FAF5D2887CAE200AFBAD7 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF5E2887CAE200AFBAD7 /* AppDelegate.swift */,
+				B19FAF602887CAE200AFBAD7 /* SceneDelegate.swift */,
+				B19FAF622887CAE200AFBAD7 /* LaunchScreen.storyboard */,
+				B19FAF652887CAE200AFBAD7 /* Main.storyboard */,
+				B19FAF682887CAE200AFBAD7 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		B19FAF6E2887CAE200AFBAD7 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF6F2887CAE200AFBAD7 /* AppDelegate.swift */,
+				B19FAF712887CAE200AFBAD7 /* Main.storyboard */,
+				B19FAF742887CAE200AFBAD7 /* Info.plist */,
+				B19FAF752887CAE200AFBAD7 /* Hide Latest Video Performance - YT.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		B19FAF7E2887CAE200AFBAD7 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF7F2887CAE200AFBAD7 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B19FAF882887CAE200AFBAD7 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAF892887CAE200AFBAD7 /* Info.plist */,
+				B19FAF8A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		B19FAFA92887CAE300AFBAD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B19FAFAA2887CAE300AFBAD7 /* icon.png */,
+				B19FAFAB2887CAE300AFBAD7 /* hideWidget.js */,
+				B19FAFAC2887CAE300AFBAD7 /* hideWidget.css */,
+				B19FAFAD2887CAE300AFBAD7 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19FAF5A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19FAF9F2887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT (iOS)" */;
+			buildPhases = (
+				B19FAF572887CAE200AFBAD7 /* Sources */,
+				B19FAF582887CAE200AFBAD7 /* Frameworks */,
+				B19FAF592887CAE200AFBAD7 /* Resources */,
+				B19FAF9E2887CAE200AFBAD7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19FAF7D2887CAE200AFBAD7 /* PBXTargetDependency */,
+			);
+			name = "Hide Latest Video Performance - YT (iOS)";
+			productName = "Hide Latest Video Performance - YT (iOS)";
+			productReference = B19FAF5B2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19FAF6C2887CAE200AFBAD7 /* Hide Latest Video Performance - YT (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19FAFA62887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT (macOS)" */;
+			buildPhases = (
+				B19FAF692887CAE200AFBAD7 /* Sources */,
+				B19FAF6A2887CAE200AFBAD7 /* Frameworks */,
+				B19FAF6B2887CAE200AFBAD7 /* Resources */,
+				B19FAFA52887CAE200AFBAD7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19FAF872887CAE200AFBAD7 /* PBXTargetDependency */,
+			);
+			name = "Hide Latest Video Performance - YT (macOS)";
+			productName = "Hide Latest Video Performance - YT (macOS)";
+			productReference = B19FAF6D2887CAE200AFBAD7 /* Hide Latest Video Performance - YT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19FAF792887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19FAF9B2887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT Extension (iOS)" */;
+			buildPhases = (
+				B19FAF762887CAE200AFBAD7 /* Sources */,
+				B19FAF772887CAE200AFBAD7 /* Frameworks */,
+				B19FAF782887CAE200AFBAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hide Latest Video Performance - YT Extension (iOS)";
+			productName = "Hide Latest Video Performance - YT Extension (iOS)";
+			productReference = B19FAF7A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B19FAF832887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19FAFA22887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT Extension (macOS)" */;
+			buildPhases = (
+				B19FAF802887CAE200AFBAD7 /* Sources */,
+				B19FAF812887CAE200AFBAD7 /* Frameworks */,
+				B19FAF822887CAE200AFBAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hide Latest Video Performance - YT Extension (macOS)";
+			productName = "Hide Latest Video Performance - YT Extension (macOS)";
+			productReference = B19FAF842887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19FAF482887CAE000AFBAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B19FAF5A2887CAE200AFBAD7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B19FAF6C2887CAE200AFBAD7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B19FAF792887CAE200AFBAD7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B19FAF832887CAE200AFBAD7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B19FAF4B2887CAE000AFBAD7 /* Build configuration list for PBXProject "Hide Latest Video Performance - YT" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19FAF472887CAE000AFBAD7;
+			productRefGroup = B19FAF5C2887CAE200AFBAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19FAF5A2887CAE200AFBAD7 /* Hide Latest Video Performance - YT (iOS) */,
+				B19FAF6C2887CAE200AFBAD7 /* Hide Latest Video Performance - YT (macOS) */,
+				B19FAF792887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension (iOS) */,
+				B19FAF832887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19FAF592887CAE200AFBAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAF8D2887CAE200AFBAD7 /* Icon.png in Resources */,
+				B19FAF642887CAE200AFBAD7 /* LaunchScreen.storyboard in Resources */,
+				B19FAF8B2887CAE200AFBAD7 /* Main.html in Resources */,
+				B19FAF912887CAE200AFBAD7 /* Script.js in Resources */,
+				B19FAF952887CAE200AFBAD7 /* Assets.xcassets in Resources */,
+				B19FAF672887CAE200AFBAD7 /* Main.storyboard in Resources */,
+				B19FAF8F2887CAE200AFBAD7 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF6B2887CAE200AFBAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAF8E2887CAE200AFBAD7 /* Icon.png in Resources */,
+				B19FAF902887CAE200AFBAD7 /* Style.css in Resources */,
+				B19FAF732887CAE200AFBAD7 /* Main.storyboard in Resources */,
+				B19FAF922887CAE200AFBAD7 /* Script.js in Resources */,
+				B19FAF962887CAE200AFBAD7 /* Assets.xcassets in Resources */,
+				B19FAF8C2887CAE200AFBAD7 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF782887CAE200AFBAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAFB52887CAE300AFBAD7 /* manifest.json in Resources */,
+				B19FAFB42887CAE300AFBAD7 /* hideWidget.css in Resources */,
+				B19FAFB32887CAE300AFBAD7 /* hideWidget.js in Resources */,
+				B19FAFB22887CAE300AFBAD7 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF822887CAE200AFBAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAFB12887CAE300AFBAD7 /* manifest.json in Resources */,
+				B19FAFB02887CAE300AFBAD7 /* hideWidget.css in Resources */,
+				B19FAFAF2887CAE300AFBAD7 /* hideWidget.js in Resources */,
+				B19FAFAE2887CAE300AFBAD7 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19FAF572887CAE200AFBAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAF932887CAE200AFBAD7 /* ViewController.swift in Sources */,
+				B19FAF5F2887CAE200AFBAD7 /* AppDelegate.swift in Sources */,
+				B19FAF612887CAE200AFBAD7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF692887CAE200AFBAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAF942887CAE200AFBAD7 /* ViewController.swift in Sources */,
+				B19FAF702887CAE200AFBAD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF762887CAE200AFBAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAF972887CAE200AFBAD7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19FAF802887CAE200AFBAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19FAF982887CAE200AFBAD7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19FAF7D2887CAE200AFBAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19FAF792887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension (iOS) */;
+			targetProxy = B19FAF7C2887CAE200AFBAD7 /* PBXContainerItemProxy */;
+		};
+		B19FAF872887CAE200AFBAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19FAF832887CAE200AFBAD7 /* Hide Latest Video Performance - YT Extension (macOS) */;
+			targetProxy = B19FAF862887CAE200AFBAD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19FAF4E2887CAE100AFBAD7 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19FAF4F2887CAE100AFBAD7 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		B19FAF622887CAE200AFBAD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19FAF632887CAE200AFBAD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B19FAF652887CAE200AFBAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19FAF662887CAE200AFBAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B19FAF712887CAE200AFBAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19FAF722887CAE200AFBAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19FAF992887CAE200AFBAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19FAF9A2887CAE200AFBAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B19FAF9C2887CAE200AFBAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT.Extension";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19FAF9D2887CAE200AFBAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT.Extension";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19FAFA02887CAE200AFBAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19FAFA12887CAE200AFBAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19FAFA32887CAE200AFBAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hide Latest Video Performance - YT.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT.Extension";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B19FAFA42887CAE200AFBAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Hide Latest Video Performance - YT.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT.Extension";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B19FAFA72887CAE200AFBAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hide Latest Video Performance - YT.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B19FAFA82887CAE200AFBAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Hide Latest Video Performance - YT.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hide Latest Video Performance - YT";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Hide-Latest-Video-Performance---YT";
+				PRODUCT_NAME = "Hide Latest Video Performance - YT";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19FAF4B2887CAE000AFBAD7 /* Build configuration list for PBXProject "Hide Latest Video Performance - YT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19FAF992887CAE200AFBAD7 /* Debug */,
+				B19FAF9A2887CAE200AFBAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19FAF9B2887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19FAF9C2887CAE200AFBAD7 /* Debug */,
+				B19FAF9D2887CAE200AFBAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19FAF9F2887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19FAFA02887CAE200AFBAD7 /* Debug */,
+				B19FAFA12887CAE200AFBAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19FAFA22887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19FAFA32887CAE200AFBAD7 /* Debug */,
+				B19FAFA42887CAE200AFBAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19FAFA62887CAE200AFBAD7 /* Build configuration list for PBXNativeTarget "Hide Latest Video Performance - YT (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19FAFA72887CAE200AFBAD7 /* Debug */,
+				B19FAFA82887CAE200AFBAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19FAF482887CAE000AFBAD7 /* Project object */;
+}
