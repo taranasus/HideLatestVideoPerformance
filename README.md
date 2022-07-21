@@ -2,7 +2,7 @@
 
 Extension that hides the stupid YouTube Studio "Latest Video Performance" / "Latest YouTube Short Performance" widget thing cause fuck it!
 
-Video Presentation of this Widget: TBA - I'm still working on it, it's a big video
+Video Presentation of this Widget: https://youtu.be/59Jkn1YSMFw
 
 - Link to Chrome extension: https://chrome.google.com/webstore/detail/hide-latest-video-perform/gebhkpihpgicbbclaldmmkpnccbnfhfe 
 - Link to Edge extension: TBA
